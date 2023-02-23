@@ -33,7 +33,8 @@ Util.getNav = async function (req, res, next) {
 
 module.exports = Util
 
-// Route to build inventory by classification view
-router.get("/type/:classificationId", invController.buildByClassification);
+// moved to routes inventory route
+// // Route to build inventory by classification view
+// router.get("/type/:classificationId", invController.buildByClassification);
 
-module.exports = router;
+// module.exports = router;
